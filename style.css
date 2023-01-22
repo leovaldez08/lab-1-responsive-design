@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap");
+
+body{
+    cursor: pointer;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://raw.githubusercontent.com/Ahamed1846/netflix-clone-boilerplate/main/assets/Title-Image.png");
+    background-color: rgb(97, 97, 97);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#logo{
+    margin: 50px;
+}
+
+.ri{
+    display: inline-block;
+    margin: 10px;
+}
+
+.wri{
+    color: white;
+}
+
+.li{
+    display: inline-block;
+    margin: 10px;
+}
+
+#space{
+    letter-spacing: 3px;
+    color: white;
+}
+
+#fs{
+    color: white;
+    font-size: 150px;
+    font-weight: 600;
+}
+
+#downr{
+    margin-left: 75px;
+    margin-top: 220px;
+}
+
+#play{
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color: white;
+    width: fit-content;
+    height: 35px;
+    margin-left: 80px;
+}
+
+#info{
+    border: 1px solid rgb(114, 114, 114);
+    border-radius: 3px;
+    background-color: rgb(114, 114, 114);
+    width: fit-content;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.button{
+    display: inline-block;
+}
+
+.t{
+    display: inline-block;
+}
+
+#tl{
+    width: 1100px;
+}
+
+#add{
+    float: right;
+    margin-top: 85px;
+}
+
+.wt{
+    color: white;
+    margin-left: 75px;
+    margin-top: 100px;
+}
+
+.ot{
+    color: white;
+}
+
+.row1{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#top10{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#trending{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.group1{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#sci{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.group2{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.group3{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#footer{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+#group{
+    display: block;  
+}
+
+#flex{
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+    background-size: 100%;
+    z-index: auto;
+    }
+
+    #fs{
+        color: white;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    #header{
+        padding-bottom: 0;
+    }
+
+    .row1{
+        display: block;
+    }
+
+    .group1{
+        display: block;
+    }
+
+    .group2{
+        display: block;
+    }
+
+    #group{
+        width: 400px;
+    }
+
+     #tr{
+        display: none;
+    }
+
+    #logo{
+        display: none;
+    }
+
+    #downr, #play{
+        margin-top: 0;
+    }
+
+    #downr{
+        margin-top: 45px;
+    }
+
+    .wt{
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+
+    #tl{
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 15px;
+    }
+  }
